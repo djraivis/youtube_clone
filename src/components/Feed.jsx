@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Stack, Typography } from '@mui/material';
-
 import { fetchFromAPI } from '../utils/fetchFromAPI';
 import { Videos, Sidebar } from './';
 
@@ -35,7 +34,7 @@ const Feed = () => {
           variant='body2'
           sx={{ mt: 1.5, color: '#fff' }}
         >
-          Copyright © 2022 JSM Media
+          Copyright © Timeless Coding
         </Typography>
       </Box>
 
